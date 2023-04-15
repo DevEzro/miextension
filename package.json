@@ -1,0 +1,31 @@
+{
+  "name": "mi-extension",
+  "displayName": "mi-extension",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Extension DevEzro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Extension DevEzro-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icono/icono.png",
+  "author": {
+    "name": "DevEzro",
+    "email": "davidtestout@putlook.com"
+  },
+  "repository": {
+    "url": "https://github.com/DevEzro/miextension.git",
+    "type": "git"
+  },
+  "publisher": "devezro-tecsup"
+}
